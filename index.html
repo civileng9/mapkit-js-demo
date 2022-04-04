@@ -91,24 +91,24 @@ body {
     });
 
     var region = new mapkit.CoordinateRegion(
-        new mapkit.Coordinate(47.163, 8.009),
+        new mapkit.Coordinate(23.0225, 72.5714),
         new mapkit.CoordinateSpan(1, 1)
     );
     
     var map = new mapkit.Map("map", {
-        center: new mapkit.Coordinate(47.3769, 8.5417),
+        center: new mapkit.Coordinate(23.0225, 72.5714),
         region: region,
         showsUserLocation: true,
         showsUserLocationControl: true
     });
 
-    var pointA = new mapkit.MarkerAnnotation(new mapkit.Coordinate(47.365, 8.549), {
+    var pointA = new mapkit.MarkerAnnotation(new mapkit.Coordinate(23.0225, 72.5714), {
         draggable: true,
         selected: true,
         title: "START - DRAG ME",
         color: '#1ecf1a'
     });
-    var pointB = new mapkit.MarkerAnnotation(new mapkit.Coordinate(46.959, 7.468), {
+    var pointB = new mapkit.MarkerAnnotation(new mapkit.Coordinate(23.0225, 72.5730), {
         draggable: true,
         selected: true,
         title: "END - DRAG ME"
